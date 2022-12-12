@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 14a</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width, initial-scale=1" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html" class="btn2">Home</a>
+      <a href="contactus.html" class="btn2">Contact Us</a>
+      <a href="#" class="btn2">Products and Services</a>
+    </nav>
+    <h1>Main Page</h1>
+    <div class="column-layout">
+      <div class="maincolumn">
+        <h2>Welcome to Brown Recluse Scents</h2>
+        <p>
+          We are a first generation company that makes fresh deer attractants
+          and lures. Our scents are frozen fresh and are all natural no watered
+          down scents! Our scents are currently not in any stores but are
+          available via this website!
+        </p>
+      </div>
+      <div class="sidebar">
+        <img
+          src="https://cdn.glitch.global/765b4e08-2894-4b6a-bd90-b14f36ceb456/My%20project-1.png?v=1669147417105"
+          alt="Logo"
+          style="width: 100px height: 100px"
+        />
+        <ul>
+          <li>Never watered Down!</li>
+          <li>Frozen fresh!</li>
+          <li>Year round accessible products!</li>
+        </ul>
+      </div>
+    </div>
+    <div class="coloredcontainers" id="specialoffers">
+      <div class="color1">
+        <h3>How Our Products Are Made!</h3>
+        <img
+          class="img2"
+          src="https://cdn.glitch.global/765b4e08-2894-4b6a-bd90-b14f36ceb456/a928e27e12514a5e9e8351c29e5a0922.webp?v=1669152066999"
+          alt="How products are Made"
+          style="width: 100px height: 100px"
+        />
+        <p>
+          We sell all of our products fresh. They are frozen fresh out of the
+          deer. The process is humane and healthy for the deer to partake in.
+          All of our deer are well taken care of.
+        </p>
+        <nav>
+          <a href="#" class="btn3">Learn More</a>
+        </nav>
+      </div>
+      <div class="color2">
+        <h3>Off on Weekends!</h3>
+        <p>
+          On weekends we hold a special sale! The percentage off ranges from
+          weekend to weekend. Click here to learn more!
+        </p>
+        <nav>
+          <a href="#" class="btn3">Learn More</a>
+        </nav>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+    
+    <script>
+    function hideAds() {
+      var x = document.getElementById("specialoffers");
+      var y = document.getElementById("hidebutton");
+      x.style.display = "none";
+      y.style.display = "none";
+    }
+    </script>
+  </body>
+</html>
