@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Assignment 14a</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+<body>
+    <nav>
+      <a href="../home.html" class="btn2">Home</a>
+      <a href="contactus.html" class="btn2">Contact Us</a>
+      <a href="#" class="btn2">Products and Services</a>
+    </nav>
+<main class="main">
+  <div class="location"><b>Location</b></div>
+   <div class="hours"><b>Hours of Operation:</b></div>
+  <div class="adress">4567 Deer Dr. <br> Hemlock, Mi 48626</div>
+  <div class="times"><b>Mon-Fri:</b>12pm-7pm<br> <b>Sat:</b>12pm-3am</div>
+  <div class="phone"><b>Phone:</b> 989-342-6798</div>
+  <div class="email"><b>Email:</b> info@brownreclusescents.com</div>
+
+</main>
+  <form action="https://us-central1-alhsofunctions.cloudfunctions.net/alhsoFormExample" method="post">
+  <ul>
+    <li>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" />
+    </li>
+    <li>
+      <label for="mail">E-mail:</label>
+      <input type="email" id="mail" name="user_email" />
+    </li>
+    <li>
+      <label for="msg">Message:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </li>
+<li class="button">
+  <button type="submit">Send your message</button>
+</li>
+  </ul>
+</form>
+  <main class="main1">
+<div class="payment">
+  <a href="../payment.html" style="text-decoration: none">Make Payment</a>
+  </div>
+    </main>
+</body>
+</html>
